@@ -45,7 +45,7 @@ The **Pharmacy Inventory Management System** is a C-based program designed to ma
 ## How It Works
 
 1. **Initialization**:
-   * The system initializes empty linked lists for medications, suppliers, and reorder information.
+   * The system initializes medicine details, reorder details, supplier details by loading existing data from files (medicine_database.txt, reoder_database.txt and supplier_database.txt).
 
 2. **Medication Entry**:
    * When a new medication is added, the system checks if it already exists in the database.
